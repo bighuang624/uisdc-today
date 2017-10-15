@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background: #f5f5f5;
+  height: 100%;
+  width: 100%;
+  font: 14px "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #65c7ef;
+  color: white;
+  font-size: 32px;
+  padding-top: 6px;
+}
+
+a{
+  color: #65c7ef;
+  text-decoration: none;
+}
+
+#uisdc_table {
+  margin: auto;
+  text-align: left;
+  width: 460px;
+}
+
+@media screen and (max-width:460px) {
+  #uisdc_table {
+    width: 100%;
+  }
+}
+
+.uisdc_item {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 0;
+  background: white;
+  border-radius: 2px;
+}
+
+.uisdc_item img {
+  width: 100%;
+  margin: 6px 0;
+}
+
+.uisdc_item a {
+  font-size: 18px;
+  margin: 8px 8px;
+}
+
+.uisdc_item p {
+  margin: 2px 8px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/vue.min.js"></script>
+  <title>优设</title>
+</head>
+<body>
+  <header>优设 - 今日更新</header>
+  <div id="uisdc_table">
+    <ul v-for="item in items" v-cloak>
+      <li class="uisdc_item">
+        <a v-text="item.title" :href="item.href"></a>
+        <img :src="item.img">
+        <p v-text="item.intro"></p>
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <p>Copyright© 2017 <a href="http://kyonhuang.top" target="_blank">Kyon Huang</a>. All Rights Reserved. </p><p><a
+            href="https://github.com/bighuang624/uisdc-today" target="_blank">项目地址</a> | <a
+            href="http://www.uisdc.com/" target="_blank">优设原站</a></p>
+  </footer>
+</body>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/index.js"></script>
+</html>
