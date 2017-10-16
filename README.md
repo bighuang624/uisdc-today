@@ -44,7 +44,7 @@ npm install
 npm run start
 ```
 
-### 测试服务器
+### 单元测试
 
 ```bash
 npm run test
@@ -52,7 +52,7 @@ npm run test
 
 ### 查看更新内容
 
-进入`uisdc/html`文件夹，打开 index.html 即可。
+运行服务器后，进入`uisdc/html`文件夹，打开 index.html 即可。
 
 ## LICENSE
 
